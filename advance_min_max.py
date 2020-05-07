@@ -9,5 +9,14 @@ players = [
     {"name": "ahmed", "score": 60, "age": 25}
 ]
 
+players1 = {
 
-print(max(players, key=lambda item: item.get("age"))['name'])
+    "izhar": {"score": 90, "age": 20},
+    "sheryar": {"score": 80, "age": 21},
+    "ahmed": {"score": 70, "age": 25}
+}
+
+print(max(players1, key=lambda item: players1[item]['age']))
+
+
+# print(max(players, key=lambda item: item.get("age"))['name'])
